@@ -1,0 +1,27 @@
+# When adding additional environment variables, the schema in "/src/env.mjs"
+# should be updated accordingly.
+
+# Prisma
+# https://www.prisma.io/docs/reference/database-reference/connection-urls#env
+DATABASE_URL="postgresql://postgres:mo7XAdnx87fmML!@db.hcoskjbhbcokckloedwr.supabase.co:5432/postgres"
+
+# Next Auth
+# You can generate a new secret on the command line with:
+# openssl rand -base64 32
+# https://next-auth.js.org/configuration/options#secret
+NEXTAUTH_SECRET="8qJnWQGeqiUDTtp/MY/gD+202ptxCdVDXujI+x4ug88="
+NEXTAUTH_URL="https://julis-notetaker.vercel.app"
+
+# Next Auth Discord Provider
+GITHUB_CLIENT_ID="91b27a4c37bd3fb10746"
+GITHUB_CLIENT_SECRET="2b7bc0b4933eb03084d329ae9cf336ff5bb0ec40"
+
+
+
+
+# github dev - clientid: 1db5eeb2190d04df29e2
+
+# github prod - clientid: 91b27a4c37bd3fb10746
+
+# dev: 8799adfdb0c85da8883741b5320d99a8c779e205
+# prod: 2b7bc0b4933eb03084d329ae9cf336ff5bb0ec40
